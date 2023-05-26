@@ -1,0 +1,11 @@
+.player{
+    position: absolute;
+    top: 120px;
+    z-index:999;
+    left: 120px;
+}
+.Container{
+    display: none;
+    position:absolute;
+    z-index: 100;
+}

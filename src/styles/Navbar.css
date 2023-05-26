@@ -1,0 +1,116 @@
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001219;
+}
+nav h1{
+    color: white;
+    margin-left: 40px;
+}
+nav a{
+    text-decoration: none;
+}
+nav span{
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #EE9B00;
+}
+nav span:hover{
+    color: white;
+    border-bottom: 2px solid #EE9B00;
+    padding-bottom: 3px;
+}
+
+span #HomeLight,#MoviesLight,#TreandingLight,#PriceLight{
+    color: white;
+}
+span #HomeLight:hover,#MoviesLight:hover,#TreandingLight:hover,#PriceLight:hover{
+    border-bottom:  2px solid #ff206e;
+}
+#navBarColor{
+    background-color: #38bdab;
+    transition: .6s;
+}
+
+.nav-options{
+    display: flex;
+    align-items: center;
+}
+#heading{
+    color: #ff206e;
+}
+#navBarColor span:hover{
+    border-bottom: 2px solid #ff206e;
+    padding-bottom: 5px;
+}
+.input-group{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#Color-switcher{
+    position: relative;
+    margin-right: 40px;
+    background-color: #413E44;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+}
+#Color-switcher-mover{
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    background-color: #fff;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    transition: .6s;
+}
+#Color-switcher-moved{
+    position: absolute;
+    background-color: white;
+    left: 40px;
+    top: 4px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    transition: .6s;
+}
+.input-group input{ 
+    
+    position: relative;
+    width: 300px;
+    height: 4vh;
+    border-radius: 16px;
+    border: none;
+    margin-right: 30px;
+    outline: none;
+    padding: .4rem;
+}
+.input-group input[type="text"]{
+    padding-left: 17px;
+    font-size: 1rem;
+    color: black;
+}
+.input-group input::placeholder{
+    color: black;
+
+}
+
+.input-group svg{
+    position: absolute;
+    left: 270px;
+    font-size: 18px;
+    color:rgb(45, 112, 45);
+}
+#search{
+    position: absolute;
+    margin-left: 310px;
+}
+body{
+    overflow-x: hidden;
+}

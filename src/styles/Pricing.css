@@ -1,0 +1,84 @@
+.toggleprice-element{
+    width: 50px;
+    height: 30px;
+    background-color: aqua;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: relative;
+    transition: 0.6s ease-in-out;
+    margin-bottom: 1rem;
+    left: 9rem;
+}
+#price-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 100vh;
+}
+
+.price-topics svg{
+    color: green;
+    margin-right: 1rem;
+}
+.price-topics h4{
+    margin-bottom: .5rem;
+}
+.price-container h1{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.price-tag{
+    margin-bottom: .8rem;
+}
+.toggleprice-container{
+    width: 23px;
+    transition: 0.6s ease-in-out;
+    height: 23px;
+    background-color: bisque;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+}
+.toggleprice-container-move{
+    width: 23px;
+    transition: 0.6s ease-in-out;
+    height: 23px;
+    background-color: bisque;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 20px;
+}
+.price-container{
+    box-shadow: 3px 3px 4px darkslategrey;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    gap: 10px;
+    background-color: darkslategrey;
+    border-radius: 1rem;
+}
+.price-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-top: 2rem;
+}
+.price-button button{
+    width: 100%;
+    padding: .5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
